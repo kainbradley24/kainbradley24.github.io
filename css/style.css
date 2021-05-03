@@ -159,7 +159,7 @@ footer a {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: 'Marko One', serif;
   margin: 0;
 }
 
@@ -225,13 +225,13 @@ footer a {
 	padding-left: 15px;
 	padding-top: 0px;
 	margin-top: -70px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
 
 h1 {
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	float: right;
 	padding-right: 270px;
 	padding-bottom: 0px;
@@ -354,7 +354,7 @@ fieldset {
 	margin-left: 1rem;
 }
 legend {
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 800;
 	color: #000000;
@@ -375,7 +375,7 @@ input {
 	padding-left: 0.4rem;
 	font-size: 0.7rem;
 	height: 1.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 textarea {
 	
@@ -386,14 +386,14 @@ textarea {
 	padding-bottom: 0.4rem;
 	padding-left: 0.4rem;
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 label {
 	color: #000000;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 	font-size: 1.2rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 select {
 	color: #000000;
@@ -407,7 +407,7 @@ select {
 }
 #submit input {
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 }
 
@@ -421,7 +421,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	background-color: #EEE5E9;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 }
 .navbar {
 	display: block;
@@ -478,7 +478,7 @@ footer a {
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-family: inherit;
+	font-family: 'Marko One', serif;
 	margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -556,12 +556,12 @@ footer a {
 	padding-left: 15px;
 	padding-top: 0px;
 	margin-top: -70px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
 h1 {
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	float: right;
 	padding-right: 270px;
 	padding-bottom: 0px;
@@ -678,7 +678,7 @@ fieldset {
 	margin-left: 1rem;
 }
 legend {
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 800;
 	color: #000000;
@@ -699,7 +699,7 @@ input {
 	padding-left: 0.4rem;
 	font-size: 0.8rem;
 	height: 1.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 textarea {
 	
@@ -710,13 +710,13 @@ textarea {
 	padding-bottom: 0.4rem;
 	padding-left: 0.4rem;
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 label {
 	color: #000000;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 select {
 	color: #000000;
@@ -730,7 +730,7 @@ select {
 }
 #submit input {
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 }
 
@@ -760,7 +760,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	background-color: #EEE5E9;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 }
 .navbar {
 	display: block;
@@ -817,7 +817,7 @@ footer a {
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-family: inherit;
+	font-family: 'Marko One', serif;
 	margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -874,12 +874,12 @@ footer a {
 	padding-left: 15px;
 	padding-top: 0px;
 	margin-top: -70px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
 h1 {
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	float: right;
 	padding-right: 270px;
 	padding-bottom: 0px;
@@ -1000,7 +1000,7 @@ fieldset {
 	margin-left: 1rem;
 }
 legend {
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 800;
 	color: #000000;
@@ -1021,7 +1021,7 @@ input {
 	padding-left: 0.4rem;
 	font-size: 0.8rem;
 	height: 1.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 textarea {
 	
@@ -1032,13 +1032,13 @@ textarea {
 	padding-bottom: 0.4rem;
 	padding-left: 0.4rem;
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 label {
 	color: #000000;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 select {
 	color: #000000;
@@ -1052,7 +1052,7 @@ select {
 }
 #submit input {
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 }
 
@@ -1090,7 +1090,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	background-color: #EEE5E9;
-	font-family: "Futura PT Medium";
+	font-family: 'Marko One', serif;
 }
 .navbar {
 	display: block;
@@ -1133,7 +1133,7 @@ footer a {
 	margin-right: 41px;
 	float: right;
 	margin-top: 13px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
  
@@ -1153,7 +1153,7 @@ footer a {
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	margin: 0;
 	font-style: normal;
 	font-weight: 400;
@@ -1216,7 +1216,7 @@ footer a {
 	margin-top: -70px;
 }
 h1 {
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	float: right;
 	padding-right: 235px;
 	padding-bottom: 0px;
@@ -1233,7 +1233,7 @@ h1 {
 	padding-top: 230px;
 	padding-left: 240px;
 	padding-right: 0px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -1243,7 +1243,7 @@ h1 {
 	margin-right: 180px;
 	margin-left: 345px;
 	padding-left: 120px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 
@@ -1310,7 +1310,7 @@ h1 {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-right: -59px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -1353,7 +1353,7 @@ fieldset {
 	margin-left: 1rem;
 }
 legend {
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 800;
 	color: #000000;
@@ -1374,7 +1374,7 @@ input {
 	padding-left: 0.4rem;
 	font-size: 0.8rem;
 	height: 1.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 textarea {
 	
@@ -1385,13 +1385,13 @@ textarea {
 	padding-bottom: 0.4rem;
 	padding-left: 0.4rem;
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 label {
 	color: #000000;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 select {
 	color: #000000;
@@ -1405,7 +1405,7 @@ select {
 }
 #submit input {
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 }
 
@@ -1441,7 +1441,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	background-color: #EEE5E9;
-	font-family: "Futura PT Medium";
+	font-family: 'Marko One', serif;
 }
 .navbar {
 	display: block;
@@ -1461,7 +1461,7 @@ body {
 	padding-left: 10px;
 	padding-bottom: 14px;
 	text-decoration: none;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -1487,7 +1487,7 @@ footer a {
 	margin-right: 41px;
 	float: right;
 	margin-top: 13px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
  
@@ -1507,7 +1507,7 @@ footer a {
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	margin: 0;
 	font-style: normal;
 	font-weight: 400;
@@ -1572,7 +1572,7 @@ footer a {
 	margin-top: 30px;
 }
 h1 {
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	float: right;
 	padding-right: 115px;
 	padding-bottom: 0px;
@@ -1596,7 +1596,7 @@ h1 {
 	margin-right: 140px;
 	margin-top: 40px;
 	text-align: left;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 
@@ -1660,13 +1660,13 @@ h1 {
 	font-size: xx-large;
 	margin-left: -48px;
 	margin-right: -42px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 }
 .education p {
 	margin-left: 0px;
 	margin-bottom: -20px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -1709,7 +1709,7 @@ fieldset {
 	margin-left: 1rem;
 }
 legend {
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 800;
 	color: #000000;
@@ -1730,7 +1730,7 @@ input {
 	padding-left: 0.4rem;
 	font-size: 0.8rem;
 	height: 1.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 textarea {
 	
@@ -1741,13 +1741,13 @@ textarea {
 	padding-bottom: 0.4rem;
 	padding-left: 0.4rem;
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 label {
 	color: #000000;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 select {
 	color: #000000;
@@ -1761,7 +1761,7 @@ select {
 }
 #submit input {
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 }
 
@@ -1799,7 +1799,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	background-color: #EEE5E9;
-	font-family: "Futura PT Medium";
+	font-family: 'Marko One', serif;
 }
 .navbar {
 	display: block;
@@ -1820,7 +1820,7 @@ body {
 	padding-left: 5px;
 	padding-bottom: 14px;
 	text-decoration: none;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -1846,7 +1846,7 @@ footer a {
 	float: right;
 	margin-left: 0px;
 	padding-left: 10px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
  
@@ -1859,7 +1859,7 @@ footer a {
 	display: inline;
 	text-align: center;
 	overflow: hidden;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -1870,7 +1870,7 @@ footer a {
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	margin: 0;
 	font-style: normal;
 	font-weight: 400;
@@ -1938,7 +1938,7 @@ footer a {
 
 
 h1 {
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	float: right;
 	padding-right: 270px;
 	padding-bottom: 0px;
@@ -1964,7 +1964,7 @@ h1 {
 	float: right;
 	margin-top: 40px;
 	padding-left: 180px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 	margin-left: -150px;
@@ -2034,7 +2034,7 @@ h1 {
 	margin-left: -770px;
 	margin-right: 445px;
 	padding-top: 0px;
-	font-family: marko-one;
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 400;
 
@@ -2088,7 +2088,7 @@ fieldset {
 	padding-bottom: 4rem;
 }
 legend {
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 	font-weight: 800;
 	color: #000000;
@@ -2109,7 +2109,7 @@ input {
 	padding-left: 0.4rem;
 	font-size: 0.8rem;
 	height: 1.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 textarea {
 	
@@ -2120,13 +2120,13 @@ textarea {
 	padding-bottom: 0.4rem;
 	padding-left: 0.4rem;
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 label {
 	color: #000000;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 }
 select {
 	color: #000000;
@@ -2140,7 +2140,7 @@ select {
 }
 #submit input {
 	color: #000000;
-	font-family: "marko-one";
+	font-family: 'Marko One', serif;
 	font-style: normal;
 }
 

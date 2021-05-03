@@ -1,0 +1,2171 @@
+@charset "utf-8";
+
+body {
+	width: auto;
+	margin: auto;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #EEE5E9;
+	font-family: marko-one;
+}
+
+.navbar {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	background-color: #5e5e5e;
+	padding-bottom: 20px;
+	padding-top: 18px;
+}
+
+.navbar a {
+  display: inline;
+    text-align: center;
+  font-size: 16px;
+  color: white;
+ 
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-icons {
+	float: right;
+}
+footer {
+	background-color: #C1666B;
+	display: block;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 17px;
+	
+}
+
+footer a {
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-left: 69px;
+	margin-right: 41px;
+	float: right;
+	margin-top: 13px;
+ 
+}
+
+
+.navbar-logo {
+	float: left;
+	animation: flicker-4 4s linear infinite both;
+}
+
+.flicker-4 {
+	animation: flicker-4 4s linear infinite both;
+}
+
+
+@keyframes flicker-4 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  31.98% {
+    opacity: 1;
+  }
+  32% {
+    opacity: 0;
+  }
+  32.8% {
+    opacity: 0;
+  }
+  32.82% {
+    opacity: 1;
+  }
+  34.98% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+  }
+  35.7% {
+    opacity: 0;
+  }
+  35.72% {
+    opacity: 1;
+  }
+  36.98% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+  37.6% {
+    opacity: 0;
+  }
+  37.62% {
+    opacity: 1;
+  }
+  67.98% {
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
+  68.4% {
+    opacity: 0;
+  }
+  68.42% {
+    opacity: 1;
+  }
+  95.98% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 0;
+  }
+  96.7% {
+    opacity: 0;
+  }
+  96.72% {
+    opacity: 1;
+  }
+  98.98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  99.6% {
+    opacity: 0;
+  }
+  99.62% {
+    opacity: 1;
+  }
+}
+
+
+
+.dropdown {
+  display: inline;
+    text-align: center;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5E5E5E;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;transition: width 2s;
+}
+
+.dropdown-content a {
+  
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline;
+}
+.background {
+	position: static;
+	padding-top: 20%;
+	background-size: cover;
+	padding-right: 0px;
+	padding-bottom: 45%;
+	background-image: url(../images/wireframe.svg);
+	padding-left: 0px;
+}
+.gallery img {
+	margin-left: 25%;
+	margin-top: -150px;
+
+}
+
+.gallery {
+	background-color: #EEE5E9;
+	position: static;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: 100%;
+}
+
+.container {
+	background-color: #C7C4C2;
+	float: right;
+	margin-left: 786px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	margin-top: -70px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: marko-one;
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 0px;
+	display: inline;
+	margin-top: -140px;
+	font-weight: 400;
+	font-size: xx-large;
+	font-style: normal;
+}
+.services h1 {
+	float: left;
+	padding-top: 303px;
+	padding-left: 400px;
+	padding-right: 0px;
+}
+.services p {
+	float: right;
+	margin-left: 620px;
+	margin-top: -21px;
+	margin-right: 419px;
+
+}
+
+
+.services {
+	background-color: #EEE5E9;
+	padding-bottom: 45%;
+	color: #000000;
+}
+
+.contact {
+	padding-bottom: 3%;
+	color: #000000;
+}
+
+
+.contact h1 {
+	float: left;
+	padding-top: 303px;
+	padding-left: 400px;
+	padding-right: 0px;
+}
+.contact p {
+	float: right;
+	margin-left: 620px;
+	margin-top: -21px;
+	margin-right: 419px;
+
+}
+.footer-logo {
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.education {
+	background-color: #EEE5E9;
+	margin-left: 773px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	marging-top: 160;
+	padding-bottom: 15%;
+	color: #000000;
+	margin-top: 150px;
+}
+.education h1 {
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: -50px;
+	font-weight: 800;
+	font-size: xx-large;
+}
+.education p {
+	margin-left: 35px;
+	margin-bottom: -20px;
+}
+.education img {
+	margin-top: -250px;
+	margin-left: -580px;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 5px;
+	margin-left: 25px;
+	
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+form {
+  grid-column: col-start / span 12;
+  grid-row: 2;
+}
+
+fieldset {
+	border: 0px solid #000000;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+legend {
+	font-family: "marko-one";
+	font-style: normal;
+	font-weight: 800;
+	color: #000000;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	padding-top: 0.3rem;
+	padding-right: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.3rem;
+}
+input {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.7rem;
+	height: 1.5rem;
+	font-family: "marko-one";
+}
+textarea {
+	
+	width: 98%;
+	min-height: 10rem;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	color: #000000;
+	font-family: "marko-one";
+}
+label {
+	color: #000000;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	font-size: 1.2rem;
+	font-family: "marko-one";
+}
+select {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 2rem;
+	width: 8rem;
+}
+#submit input {
+	color: #000000;
+	font-family: "marko-one";
+	font-style: normal;
+}
+
+
+
+
+@media only screen and (max-width: 1303px){
+body {
+	width: auto;
+	margin: auto;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #EEE5E9;
+	font-family: marko-one;
+}
+.navbar {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	background-color: #5e5e5e;
+	padding-bottom: 20px;
+	padding-top: 18px;
+}
+.navbar a {
+	display: inline;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navbar-icons {
+	float: right;
+}
+footer {
+	background-color: #C1666B;
+	display: block;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 17px;
+	
+}
+footer a {
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-left: 69px;
+	margin-right: 41px;
+	float: right;
+	margin-top: 13px;
+ 
+}
+.navbar-logo {
+	float: left;
+}
+.dropdown {
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #5E5E5E
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #5E5E5E
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+	display: inline;
+}
+.background {
+	position: static;
+	padding-top: 20%;
+	background-size: cover;
+	padding-right: 0px;
+	padding-bottom: 45%;
+	background-image: url(../images/wireframe.svg);
+	padding-left: 0px;
+}
+.gallery img {
+	margin-left: 25%;
+	margin-top: -150px;
+
+}
+.gallery {
+	background-color: #EEE5E9;
+	position: static;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: 100%;
+}
+.container {
+	background-color: #C7C4C2;
+	float: right;
+	margin-left: 720px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	margin-top: -70px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+h1 {
+	font-family: marko-one;
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 0px;
+	display: inline;
+	margin-top: -140px;
+	font-weight: 400;
+	font-size: xx-large;
+	font-style: normal;
+}
+.services h1 {
+	float: left;
+	padding-top: 303px;
+	padding-left: 300px;
+	padding-right: 0px;
+}
+.services p {
+	float: right;
+	margin-left: 500px;
+	margin-top: -21px;
+	margin-right: 419px;
+
+}
+.services {
+	background-color: #EEE5E9;
+	padding-bottom: 45%;
+	color: #000000;
+	margin-right: -101px;
+}
+	
+	.contact {
+	background-color: #EEE5E9;
+	padding-bottom: 3%;
+	color: #000000;
+}
+
+
+.contact h1 {
+	float: left;
+	padding-top: 303px;
+	padding-left: 400px;
+	padding-right: 0px;
+}
+.contact p {
+	float: right;
+	margin-left: 620px;
+	margin-top: -21px;
+	margin-right: 419px;
+
+}
+.footer-logo {
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.education {
+	background-color: #EEE5E9;
+	margin-left: 773px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	marging-top: 160;
+	padding-bottom: 15%;
+	color: #000000;
+	margin-top: 150px;
+}
+.education h1 {
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: -50px;
+	font-weight: 800;
+	font-size: xx-large;
+}
+.education p {
+	margin-left: 35px;
+	margin-bottom: -20px;
+}
+.education img {
+	margin-top: -250px;
+	margin-left: -580px;
+}
+.column {
+	float: left;
+	width: 30%;
+	padding: 5px;
+	margin-left: 25px;
+	
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+	form {
+  grid-column: col-start / span 12;
+  grid-row: 2;
+}
+
+fieldset {
+	border: 0px solid #000000;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+legend {
+	font-family: "marko-one";
+	font-style: normal;
+	font-weight: 800;
+	color: #000000;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	padding-top: 0.3rem;
+	padding-right: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.3rem;
+}
+input {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 1.5rem;
+	font-family: "marko-one";
+}
+textarea {
+	
+	width: 98%;
+	min-height: 10rem;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	color: #000000;
+	font-family: "marko-one";
+}
+label {
+	color: #000000;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	font-family: "marko-one";
+}
+select {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 2rem;
+	width: 8rem;
+}
+#submit input {
+	color: #000000;
+	font-family: "marko-one";
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+@media only screen and (max-width: 1214px){
+body {
+	width: auto;
+	margin: auto;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #EEE5E9;
+	font-family: marko-one;
+}
+.navbar {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	background-color: #5e5e5e;
+	padding-bottom: 20px;
+	padding-top: 18px;
+}
+.navbar a {
+	display: inline;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navbar-icons {
+	float: right;
+}
+footer {
+	background-color: #C1666B;
+	display: block;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 17px;
+	
+}
+footer a {
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-left: 69px;
+	margin-right: 41px;
+	float: right;
+	margin-top: 13px;
+ 
+}
+.navbar-logo {
+	float: left;
+}
+.dropdown {
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #5E5E5E
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+	display: inline;
+}
+.background {
+	position: static;
+	padding-top: 20%;
+	background-size: cover;
+	padding-right: 0px;
+	padding-bottom: 45%;
+	background-image: url(../images/wireframe.svg);
+	padding-left: 0px;
+}
+.gallery img {
+	margin-left: 25%;
+	margin-top: -150px;
+
+}
+.gallery {
+	background-color: #EEE5E9;
+	position: static;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: 100%;
+}
+.container {
+	background-color: #C7C4C2;
+	float: right;
+	margin-left: 650px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	margin-top: -70px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+h1 {
+	font-family: marko-one;
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 0px;
+	display: inline;
+	margin-top: -140px;
+	font-weight: 400;
+	font-size: xx-large;
+	font-style: normal;
+}
+.services h1 {
+	float: left;
+	padding-top: 303px;
+	padding-left: 160px;
+	padding-right: 0px;
+}
+.services p {
+	float: right;
+	margin-left: 394px;
+	margin-top: -18px;
+	margin-right: 309px;
+
+}
+.services {
+	background-color: #EEE5E9;
+	padding-bottom: 45%;
+	color: #000000;
+	margin-left: 10px;
+}
+	
+	.contact {
+	background-color: #EEE5E9;
+	padding-bottom: 3%;
+	color: #000000;
+}
+
+
+.contact h1 {
+	float: left;
+	padding-top: 222px;
+	padding-left: 470px;
+	padding-right: 0px;
+	padding-bottom: 70px;
+}
+.contact p {
+	float: right;
+	margin-left: 388px;
+	margin-top: -21px;
+	margin-right: 419px;
+
+}
+.footer-logo {
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.education {
+	background-color: #EEE5E9;
+	margin-left: 773px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	marging-top: 160;
+	padding-bottom: 15%;
+	color: #000000;
+	margin-top: 150px;
+}
+.education h1 {
+	float: right;
+	padding-right: 420px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: -88px;
+	font-weight: 800;
+	font-size: xx-large;
+	padding-left: 0px;
+}
+.education p {
+	margin-left: -238px;
+	margin-bottom: -20px;
+}
+.education img {
+	margin-top: -250px;
+	margin-left: -580px;
+}
+.column {
+	float: left;
+	width: 30%;
+	padding: 5px;
+	margin-left: 25px;
+	
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+
+form {
+  grid-column: col-start / span 12;
+  grid-row: 2;
+}
+
+fieldset {
+	border: 0px solid #000000;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+legend {
+	font-family: "marko-one";
+	font-style: normal;
+	font-weight: 800;
+	color: #000000;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	padding-top: 0.3rem;
+	padding-right: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.3rem;
+}
+input {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 1.5rem;
+	font-family: "marko-one";
+}
+textarea {
+	
+	width: 98%;
+	min-height: 10rem;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	color: #000000;
+	font-family: "marko-one";
+}
+label {
+	color: #000000;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	font-family: "marko-one";
+}
+select {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 2rem;
+	width: 8rem;
+}
+#submit input {
+	color: #000000;
+	font-family: "marko-one";
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+@media only screen and (max-width: 1024px){
+body {
+	width: auto;
+	margin: auto;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #EEE5E9;
+	font-family: "Futura PT Medium";
+}
+.navbar {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	background-color: #5e5e5e;
+	padding-bottom: 20px;
+	padding-top: 18px;
+}
+.navbar a {
+	display: inline;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+.navbar-icons {
+	float: right;
+}
+footer {
+	background-color: #C1666B;
+	display: block;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 17px;
+	
+}
+footer a {
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-left: 69px;
+	margin-right: 41px;
+	float: right;
+	margin-top: 13px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+ 
+}
+.navbar-logo {
+	float: left;
+}
+.dropdown {
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: marko-one;
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #5E5E5E
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-left: -100px;
+	margin-top: 40px;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+	display: inline;
+}
+.background {
+	position: static;
+	padding-top: 20%;
+	background-size: cover;
+	padding-right: 0px;
+	padding-bottom: 45%;
+	background-image: url(../images/wireframe.svg);
+	padding-left: 0px;
+}
+.gallery img {
+	margin-left: 25%;
+	margin-top: -80px;
+
+}
+.gallery {
+	background-color: #EEE5E9;
+	position: static;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: 100%;
+}
+.container {
+	background-color: #C7C4C2;
+	float: right;
+	margin-left: 521px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	margin-top: -70px;
+}
+h1 {
+	font-family: marko-one;
+	float: right;
+	padding-right: 235px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 0px;
+	display: inline;
+	margin-top: -140px;
+	font-weight: 400;
+	font-size: xx-large;
+	font-style: normal;
+}
+.services h1 {
+	float: left;
+	padding-top: 230px;
+	padding-left: 240px;
+	padding-right: 0px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+.services p {
+	float: right;
+	margin-top: -21px;
+	margin-right: 180px;
+	margin-left: 345px;
+	padding-left: 120px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+
+}
+.services {
+	background-color: #EEE5E9;
+	padding-bottom: 45%;
+	color: #000000;
+	margin-left: -10%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+	
+	.contact {
+	background-color: #EEE5E9;
+	padding-bottom: 3%;
+	color: #000000;
+}
+
+
+.contact h1 {
+	float: left;
+	padding-top: 210px;
+	padding-left: 400px;
+	padding-right: 0px;
+}
+.contact p {
+	float: right;
+	margin-left: 279px;
+	margin-top: -21px;
+	margin-right: 359px;
+	padding-left: 80px;
+
+}
+.footer-logo {
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.education {
+	background-color: #EEE5E9;
+	margin-right: 205px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	marging-top: 160;
+	padding-bottom: 15%;
+	color: #000000;
+	margin-top: 150px;
+}
+.education h1 {
+	float: right;
+	padding-right: 500px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: -90px;
+	font-weight: 800;
+	font-size: xx-large;
+	margin-right: -325px;
+}
+.education p {
+	margin-left: -270px;
+	margin-bottom: -20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: -59px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+.education img {
+	margin-top: -350px;
+	margin-left: -730px;
+	min-width: 378px;
+}
+.column {
+	float: left;
+	width: 29%;
+	padding: 5px;
+	margin-left: 25px;
+	
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+
+
+form {
+  grid-column: col-start / span 12;
+  grid-row: 2;
+}
+
+fieldset {
+	border: 0px solid #000000;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+legend {
+	font-family: "marko-one";
+	font-style: normal;
+	font-weight: 800;
+	color: #000000;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	padding-top: 0.3rem;
+	padding-right: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.3rem;
+}
+input {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 1.5rem;
+	font-family: "marko-one";
+}
+textarea {
+	
+	width: 98%;
+	min-height: 10rem;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	color: #000000;
+	font-family: "marko-one";
+}
+label {
+	color: #000000;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	font-family: "marko-one";
+}
+select {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 2rem;
+	width: 8rem;
+}
+#submit input {
+	color: #000000;
+	font-family: "marko-one";
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+@media only screen and (max-width: 651px){
+body {
+	width: auto;
+	margin: auto;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #EEE5E9;
+	font-family: "Futura PT Medium";
+}
+.navbar {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	background-color: #5e5e5e;
+	padding-bottom: 20px;
+	padding-top: 18px;
+}
+.navbar a {
+	display: inline;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	padding-top: 14px;
+	padding-right: 16px;
+	padding-left: 10px;
+	padding-bottom: 14px;
+	text-decoration: none;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+.navbar-icons {
+	float: right;
+}
+footer {
+	background-color: #C1666B;
+	display: block;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 17px;
+	
+}
+footer a {
+	display: inline;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	margin-left: 69px;
+	margin-right: 41px;
+	float: right;
+	margin-top: 13px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+ 
+}
+.navbar-logo {
+	float: left;
+}
+.dropdown {
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	font-size: 13px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: marko-one;
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #5E5E5E
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding-left: 0px;
+	margin-left: -70px;
+	margin-top: 35px;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+	display: inline;
+}
+.background {
+	position: static;
+	padding-top: 20%;
+	background-size: cover;
+	padding-right: 0px;
+	padding-bottom: 45%;
+	background-image: url(../images/wireframe.svg);
+	padding-left: 0px;
+}
+.gallery img {
+	margin-left: 17%;
+	margin-top: 105px;
+	min-width: 400px;
+
+}
+.gallery {
+	background-color: #EEE5E9;
+	position: static;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: 100%;
+}
+.container {
+	background-color: #C7C4C2;
+	float: right;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	margin-left: 256px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+h1 {
+	font-family: marko-one;
+	float: right;
+	padding-right: 115px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 0px;
+	display: inline;
+	margin-top: -59px;
+	font-weight: 400;
+	font-size: xx-large;
+	font-style: normal;
+}
+.services h1 {
+	float: left;
+	padding-top: 150px;
+	padding-left: 250px;
+	padding-right: 0px;
+}
+.services p {
+	float: right;
+	margin-left: -40px;
+	margin-right: 140px;
+	margin-top: 40px;
+	text-align: left;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+
+}
+.services {
+	background-color: #EEE5E9;
+	padding-bottom: 80%;
+	color: #000000;
+	padding-left: 50px;
+	margin-top: 0px;
+}
+	
+	.contact {
+	background-color: #EEE5E9;
+	padding-bottom: 3%;
+	color: #000000;
+}
+
+
+.contact h1 {
+	float: left;
+	padding-top: 177px;
+	padding-left: 200px;
+	padding-right: 0px;
+}
+.contact p {
+	float: right;
+	margin-left: 134px;
+	margin-top: -21px;
+	margin-right: 33px;
+	padding-left: 0px;
+	padding-right: 117px;
+	padding-top: 0px;
+	margin-bottom: 30px;
+
+}
+.footer-logo {
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.education {
+	background-color: #EEE5E9;
+	margin-left: 100px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	marging-top: 160;
+	padding-bottom: 15%;
+	color: #000000;
+	margin-top: 160px;
+}
+.education h1 {
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: -70px;
+	font-weight: 400;
+	font-size: xx-large;
+	margin-left: -48px;
+	margin-right: -42px;
+	font-family: marko-one;
+	font-style: normal;
+}
+.education p {
+	margin-left: 0px;
+	margin-bottom: -20px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+.education img {
+	margin-top: 67px;
+	min-width: 499px;
+	margin-left: -40px;
+}
+.column {
+	float: left;
+	width: 90%;
+	padding: 5px;
+	margin-left: 25px;
+	
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+
+
+form {
+  grid-column: col-start / span 12;
+  grid-row: 2;
+}
+
+fieldset {
+	border: 0px solid #000000;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+legend {
+	font-family: "marko-one";
+	font-style: normal;
+	font-weight: 800;
+	color: #000000;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	padding-top: 0.3rem;
+	padding-right: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.3rem;
+}
+input {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 1.5rem;
+	font-family: "marko-one";
+}
+textarea {
+	
+	width: 98%;
+	min-height: 10rem;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	color: #000000;
+	font-family: "marko-one";
+}
+label {
+	color: #000000;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	font-family: "marko-one";
+}
+select {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 2rem;
+	width: 8rem;
+}
+#submit input {
+	color: #000000;
+	font-family: "marko-one";
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+@media only screen and (max-width: 375px){
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	margin: auto;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #EEE5E9;
+	font-family: "Futura PT Medium";
+}
+.navbar {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	background-color: #5e5e5e;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+}
+.navbar a {
+	display: inline;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	padding-top: 14px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 14px;
+	text-decoration: none;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+.navbar-icons {
+	float: right;
+	display: none;
+}
+footer {
+	background-color: #C1666B;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 17px;
+	margin-top: 280px;
+	
+}
+footer a {
+	display: inline;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	float: right;
+	margin-left: 0px;
+	padding-left: 10px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+ 
+}
+.navbar-logo {
+	float: left;
+	display: none;
+}
+.dropdown {
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+}
+.dropdown .dropbtn {
+	font-size: 14px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: marko-one;
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #5E5E5E
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-right: -100px;
+	margin-left: -100px;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+	display: inline;
+}
+.background {
+	position: static;
+	padding-top: 20%;
+	background-size: cover;
+	padding-right: 0px;
+	padding-bottom: 45%;
+	background-image: url(../images/wireframe.svg);
+	padding-left: 0px;
+	margin-top: -10px;
+}
+.gallery img {
+	margin-top: -50px;
+	min-width: 300px;
+	margin-left: 25px;
+
+}
+.gallery {
+	background-color: #EEE5E9;
+	position: static;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: 100%;
+	margin-top: 640px;
+}
+.container {
+	background-color: #C7C4C2;
+	float: right;
+	padding-right: 245px;
+	padding-left: 25px;
+	padding-top: 0px;
+	margin-top: 43px;
+	padding-bottom: 0px;
+	margin-bottom: -435px;
+	margin-right: 50px;
+}
+
+
+h1 {
+	font-family: marko-one;
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	display: inline;
+	font-weight: 400;
+	font-size: xx-large;
+	margin-right: -142px;
+	margin-top: 0px;
+	font-style: normal;
+}
+.container p {
+	margin-right: -215px;
+}
+
+.services h1 {
+	float: left;
+	padding-top: 80px;
+	padding-left: 60px;
+	padding-right: 0px;
+}
+.services p {
+	float: right;
+	margin-top: 40px;
+	padding-left: 180px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+	margin-left: -150px;
+	padding-right: 50px;
+
+}
+.services {
+	background-color: #EEE5E9;
+	padding-bottom: 80%;
+	color: #000000;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+	
+	.contact {
+	background-color: #EEE5E9;
+	padding-bottom: 3%;
+	color: #000000;
+}
+
+
+.contact h1 {
+	float: left;
+	padding-top: 100px;
+	padding-left: 70px;
+	padding-right: 0px;
+}
+.contact p {
+	float: right;
+	margin-left: 70px;
+	margin-right: 6px;
+	padding-left: 0px;
+	padding-right: 57px;
+	margin-top: 32px;
+
+}
+.footer-logo {
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+	display: none;
+}
+.education {
+	background-color: #EEE5E9;
+	margin-left: 773px;
+	margin-right: 115px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 0px;
+	marging-top: 160;
+	padding-bottom: 15%;
+	color: #000000;
+	margin-top: 150px;
+}
+.education h1 {
+	float: right;
+	padding-right: 270px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: -100px;
+	font-weight: 800;
+	font-size: xx-large;
+	margin-right: 400px;
+	margin-bottom: -114px;
+}
+.education p {
+	margin-left: -770px;
+	margin-right: 445px;
+	padding-top: 0px;
+	font-family: marko-one;
+	font-style: normal;
+	font-weight: 400;
+
+}
+.education img {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	min-width: 300px;
+	margin-left: -760px;
+	margin-top: 100px;
+	margin-bottom: -200px;
+
+
+
+
+
+
+
+
+}
+
+.column {
+	float: left;
+	width: 80%;
+	padding: 5px;
+	margin-left: 25px;
+	margin-top: 30px;
+	
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+
+form {
+  grid-column: col-start / span 12;
+  grid-row: 2;
+}
+
+fieldset {
+	border: 0px solid #000000;
+	padding-top: 4rem;
+	padding-right: 4rem;
+	padding-left: 4rem;
+	padding-bottom: 4rem;
+}
+legend {
+	font-family: "marko-one";
+	font-style: normal;
+	font-weight: 800;
+	color: #000000;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	padding-top: 0.3rem;
+	padding-right: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.3rem;
+}
+input {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 1.5rem;
+	font-family: "marko-one";
+}
+textarea {
+	
+	width: 98%;
+	min-height: 10rem;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	color: #000000;
+	font-family: "marko-one";
+}
+label {
+	color: #000000;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	font-family: "marko-one";
+}
+select {
+	color: #000000;
+	padding-top: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 0.8rem;
+	height: 2rem;
+	width: 8rem;
+}
+#submit input {
+	color: #000000;
+	font-family: "marko-one";
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
